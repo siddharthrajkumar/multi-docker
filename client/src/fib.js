@@ -35,6 +35,10 @@ class Fib extends Component {
         });
 
         this.setState({ index: '' });
+
+        // Fetch the latest values and indexes
+        this.fetchValues();
+        this.fetchIndexes();
     }
 
     renderSeenIndexes() {
