@@ -33,8 +33,8 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: multi-docker
           environment_name: Multi-docker-env
-          existing_bucket_name: elasticbeanstalk-ap-south-1-839117473964
-          region: ap-south-1
+          existing_bucket_name: elasticbeanstalk-ap-southeast-1-839117473964
+          region: ap-southeast-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
           use_existing_version_if_available: true
